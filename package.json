@@ -5,8 +5,8 @@
   "type": "module",
   "main": "src/electron/main",
   "scripts": {
-    "dev": "vite",
-    "electron": "electron .",
+    "dev:react": "vite",
+    "dev:electron": "electron .",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
