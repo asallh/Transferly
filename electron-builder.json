@@ -1,0 +1,17 @@
+{
+    "appId": "com.inertia.SimpleFtp",
+    "files": [
+        "dist/**/*"
+    ],
+    "icon":"./SimpleFtpUpdated.png",
+    "mac":{
+        "target": "dmg"
+    },
+    "linux": {
+        "target": "AppImage",
+        "category": "Utility"
+    },
+    "win":{
+        "target":["portable", "msi"]
+    }
+}
