@@ -1,5 +1,5 @@
 {
-    "appId": "com.inertia.SimpleFtp",
+    "appId": "com.inertia.Transferly",
     "files": [
         "dist/**/*"
     ],
