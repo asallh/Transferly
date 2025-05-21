@@ -1,12 +1,22 @@
 import "./App.css";
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/roboto/500.css";
+import "@fontsource/roboto/700.css";
+import TextField from "@mui/material/TextField";
 
 function App() {
   return (
-    <div className="flex items-center justify-center h-screen w-screen">
-      <div className="text-3xl font-bold underline text-center">
-        Hello SimpleFTP
-      </div>
-    </div>
+    <>
+      <center>
+        <div>Hello Transferly</div>
+        <div>
+          <TextField label="User" variant="outlined" />
+          <TextField label="Password" variant="outlined" />
+          <TextField label="Port" variant="outlined" />
+        </div>
+      </center>
+    </>
   );
 }
 
